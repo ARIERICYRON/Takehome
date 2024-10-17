@@ -33,7 +33,7 @@ ruby challenge.rb
 ## Output
 The output will be written to output.txt, formatted as follows:
 bash
-```Company Id: 1
+Company Id: 1
 Company Name: Example Corp
 Users Emailed:
     Doe, John, john.doe@example.com
