@@ -1,4 +1,4 @@
-git@github.com:ARIERICYRON/Takehome.git
+
 
 # JSON Processing Challenge
 
@@ -32,7 +32,7 @@ ruby challenge.rb
 2. The script will read the input files, process the data, and create an output file named output.txt.
 ## Output
 The output will be written to output.txt, formatted as follows:
-Company Id: 1
+``Company Id: 1
 Company Name: Example Corp
 Users Emailed:
     Doe, John, john.doe@example.com
@@ -46,19 +46,20 @@ Total amount of top-ups for Example Corp: 5
 ## Error Handling
 The script includes robust error handling for various scenarios, including:
 
-File Not Found: If users.json or companies.json is missing, an error message will be displayed.
-Invalid JSON Format: If the JSON files are malformed, the script will alert you to the issue.
-Incorrect Data Structures: The script checks if the parsed JSON data is in the expected format (arrays of hashes).
+1.File Not Found: If users.json or companies.json is missing, an error message will be displayed.
+2.Invalid JSON Format: If the JSON files are malformed, the script will alert you to the issue.
+3.Incorrect Data Structures: The script checks if the parsed JSON data is in the expected format (arrays of hashes).
 
 ## Code Structure
 The code is organized into several methods to improve readability and reusability:
 
-read_json: Reads and parses a JSON file, returning an array of hashes.
-process_users: Processes user data to apply top-ups and categorize users based on email status.
-write_output: Writes the processed results to an output text file.
+1.read_json: Reads and parses a JSON file, returning an array of hashes.
+2.process_users: Processes user data to apply top-ups and categorize users based on email status.
+3.write_output: Writes the processed results to an output text file.
 
 ## Error Handling Details
 Each method contains specific error handling to manage potential issues gracefully, providing informative messages without crashing the program.
+
 The main execution method validates the data structure of input files before processing.
 
 ## Functions
