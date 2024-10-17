@@ -32,7 +32,8 @@ ruby challenge.rb
 2. The script will read the input files, process the data, and create an output file named output.txt.
 ## Output
 The output will be written to output.txt, formatted as follows:
-``Company Id: 1
+bash
+```Company Id: 1
 Company Name: Example Corp
 Users Emailed:
     Doe, John, john.doe@example.com
